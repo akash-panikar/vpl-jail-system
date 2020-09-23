@@ -1,4 +1,4 @@
-# vpl-jail-system
+# vpl-jail-system ( Virtual Programming Lab )
 VPL- Virtual Programming Lab is a activity module for Moodle that manage programming assignments and whose salient features are:
 	
    -> Enable to edit the programs source code in the browser
@@ -11,7 +11,7 @@ VPL- Virtual Programming Lab is a activity module for Moodle that manage program
    
    -> Allows setting editing restrictions and avoiding external text pasting.
 
-#Features
+# Features
 
 The system integrates into Moodle, providing the usual characteristics of activities such as grading, groups, access control based on roles, access logs, backup and restore data, etc. It also has a large number of features tailored to the programming assignments.
 Submission control
@@ -28,7 +28,7 @@ It offers various options for controlling the submissions:
   
   ->  The browsing, editing and uploading files can be restricted to networks and/or password protected.
 
-#File management
+# File management
 
     -> Allows to edit the files from the browser using the code editor component of the system.
     
@@ -36,7 +36,7 @@ It offers various options for controlling the submissions:
     
     -> Uploaded files are displayed with syntax highlighting.
 
-#Running and evaluating submissions
+# Running and evaluating submissions
 
     -> Default run and debug scripts are used for many programming languages (Ada, C, C++, C#, Fortran, Haskell, Java, Matlab/Octave, Pascal, Perl, PHP, Prolog, Python, Ruby, Scheme, SQL and VHDL)
     
