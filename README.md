@@ -2,12 +2,15 @@
 VPL- Virtual Programming Lab is a activity module for Moodle that manage programming assignments and whose salient features are:
 	
    -> Enable to edit the programs source code in the browser
+   
    -> Students can run interactively programs in the browser
+   
    -> Students and teachers can run tests to review the programs.
+   
    -> Allows searching for similarity between files.
+   
    -> Allows setting editing restrictions and avoiding external text pasting.
 
- 
 #Features
 
 The system integrates into Moodle, providing the usual characteristics of activities such as grading, groups, access control based on roles, access logs, backup and restore data, etc. It also has a large number of features tailored to the programming assignments.
@@ -41,3 +44,5 @@ Authorship control
     -> Allows to searching of the similar files.
     -> The system may add water marks in the downloaded code.
     -> Allows to limit editing and prevent external code to be paste.
+=======
+>>>>>>> 72de8af47b422aba3cde9625f0eeedb780cc803b
