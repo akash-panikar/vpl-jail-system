@@ -3,10 +3,12 @@
 This document describes the installation of the VPL execution server (vpl-jail-system) on Ubuntu.
 
 
-#Installing execution server on Ubuntu
+#	Installing execution server on Ubuntu
 Our tests indicate that the 32-bit version is more convenient than the 64 because the 32-bit implementation consumes less memory and CPU than the 64-bit version. The machine requirements are highly dependent on the software used, our experience is that a machine with only 2Gb of ram and 2 cores can support a class of 50 students online using Java.
 
 per-requirement: Fresh/Clean installed ubuntu Operating System
+
+The steps for installation 2.5.3 version of VLP and configuration are below:
 
 1.	download vpl-jail-system-2.5.3.tar.gz (150 Kb) from here
 
@@ -21,7 +23,7 @@ per-requirement: Fresh/Clean installed ubuntu Operating System
 5.	Then follow the steps which will be shown on the terminal, after finishing installation follow from 6. (sixth) step from below 
 	documentation.
 
-
+-----------------------------------------------------------------OR----------------------------------------------------------------
 
 The steps for installation latest version of VLP and configuration are below:
 
@@ -55,7 +57,7 @@ The steps for installation latest version of VLP and configuration are below:
 
     sudo service vpl-jail-system start
 
-# Checking
+#	Checking
 
 You can check the availability of your execution server using the URL
 
@@ -65,11 +67,11 @@ where server is the name of your execution server
 
 The system must return a page with OK
 
-# Troubleshooting
+#	Troubleshooting
 
 You can obtain a detailed log of the service by starting it in debug mode with "service vpl-jail-system start -d 8". The logs will be written in "/var/log/syslog"
 
-# Using
+#	Using
 
 The URL of the service in the general module configuration or in the local execution server settings of your Moodle server is
 
